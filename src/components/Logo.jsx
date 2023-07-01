@@ -1,5 +1,4 @@
 'use client'
-
 import Link from 'next/link'
 import React from 'react'
 import { motion } from 'framer-motion'
@@ -20,7 +19,7 @@ const Logo = () => {
                     animate: { scale: 1.3 }
                 }}
             >
-                GN
+                NQ
             </MotionLink>
         </div>
     )

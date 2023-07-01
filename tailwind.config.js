@@ -19,6 +19,17 @@ module.exports = {
         primary: "#B63E96", // 240,86,199
         primaryDark: "#58E6d9", // 80,230,217
       },
+      animation: {
+        "spin-slow": "spin 8s linear infinite",
+        "reverse-spin": "reverse-spin 8s linear infinite",
+      },
+      keyframes: {
+        "reverse-spin": {
+          from: {
+            transform: "rotate(360deg)",
+          },
+        },
+      },
     },
   },
   plugins: [],
