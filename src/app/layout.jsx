@@ -12,7 +12,7 @@ export const metadata = {
   title: 'Noe\'s Portfolio',
   description: 'Page to showcase my projects and abilities',
 }
-//
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} font-mont bg-light w-full min-h-screen `}>
